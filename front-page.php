@@ -160,6 +160,30 @@
         </div>
     </div>
 
+    <div id="section6">
+        <h1 class="text-6xl font-nunito tracking-tight"><?php the_field('title_references') ?></h1>
+        <div>
+            <div>
+                <!-- <H2></H2> -->
+                <!-- <img></img> -->
+                <!-- <img></img> -->
+                <!-- <img></img> -->
+            </div>
+            <div>
+                <!-- <H2></H2> -->
+                <!-- <img></img> -->
+                <!-- <img></img> -->
+                <!-- <img></img> -->
+            </div>
+            <div>
+                <!-- <H2></H2> -->
+                <!-- <img></img> -->
+                <!-- <img></img> -->
+                <!-- <img></img> -->
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <?php get_footer(); ?>
