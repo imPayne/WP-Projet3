@@ -136,6 +136,29 @@
         </div>
     </div>
 
+    <div id="section5">
+        <h1 class="text-6xl font-nunito tracking-tight"><?php the_field('title_fonctionnalites') ?></h1>
+        <div class="flex">
+            <div class="m-4">
+                <p><?php the_field('fonctionnalite1') ?></p>
+                <p><?php the_field('fonctionnalite2') ?></p>
+                <p><?php the_field('fonctionnalite3') ?></p>
+                <p><?php the_field('fonctionnalite4') ?></p>
+                <a href="/" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+                    <?php
+                    the_field('buttontext');
+                    ?>
+                </a>
+            </div>
+            <?php
+            $sizeSection5 = "section5ImageSize";
+            $imageFonctionnalite = get_field('fonctionnalite_image');
+            if($imageFonctionnalite) {
+                echo wp_get_attachment_image( $imageFonctionnalite, $sizeSection5);
+            }
+            ?>
+        </div>
+    </div>
 
 </div>
 
