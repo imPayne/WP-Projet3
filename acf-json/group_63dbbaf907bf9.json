@@ -31,7 +31,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Compositeur Digital",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -50,7 +50,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Une expérience unique pour animer toutes vos présentations",
             "placeholder": "",
             "maxlength": "",
             "rows": "",
@@ -69,7 +69,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "DECOUVRIR",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -88,7 +88,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "CONTACT",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -147,7 +147,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Sales Marketing",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -166,7 +166,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Réalisez des ventes à plus forte valeur ajoutée avec vos contenus existants",
             "placeholder": "",
             "maxlength": "",
             "rows": "",
@@ -209,7 +209,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Animation Formation",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -228,7 +228,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Boostez l'intelligence collective en réunion et gagnez en productivité",
             "placeholder": "",
             "maxlength": "",
             "rows": "",
@@ -271,7 +271,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Show Plateau TV",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -290,7 +290,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Animez des présentations convaincantes en captant l'attention de votre auditoire",
             "placeholder": "",
             "maxlength": "",
             "rows": "",
@@ -344,7 +344,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
+                    "default_value": "Nos secteurs d'activités",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
@@ -387,7 +387,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
+                    "default_value": "Batiment",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
@@ -430,7 +430,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
+                    "default_value": "Education Médias",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
@@ -473,7 +473,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
+                    "default_value": "Banque Assurances",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
@@ -516,7 +516,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
+                    "default_value": "Industrie Défense",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
@@ -559,7 +559,7 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
+                    "default_value": "Conseil Services",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
@@ -596,7 +596,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Sur de nombreux dispositifs",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -639,7 +639,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Poste de travail 2 en 1",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -682,7 +682,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "A distance",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -725,7 +725,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Ecran interactif",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -768,7 +768,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Borne tactile",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -803,7 +803,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Des fonctionnalités multiples",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -822,7 +822,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Espace de collaboration",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -841,7 +841,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Supports de créativité",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -860,7 +860,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Documents multimédias",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -879,7 +879,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Modules interactifs",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -898,7 +898,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "DECOUVRIR",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -957,7 +957,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Quelques références",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -984,8 +984,8 @@
             "sub_fields": [
                 {
                     "key": "field_63dbd39fd4ef8",
-                    "label": "banq_title1",
-                    "name": "banq_title",
+                    "label": "référence_title1",
+                    "name": "reference_title1",
                     "type": "text",
                     "instructions": "",
                     "required": 1,
@@ -1002,10 +1002,10 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_63dbd369d4ef4",
-                    "label": "banq_répéteur1",
-                    "name": "banq_repeteur1",
-                    "type": "repeater",
+                    "key": "field_63e0c21e21bcd",
+                    "label": "référence1_image1",
+                    "name": "reference1_image1",
+                    "type": "image",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -1014,90 +1014,69 @@
                         "class": "",
                         "id": ""
                     },
-                    "collapsed": "",
-                    "min": 0,
-                    "max": 0,
-                    "layout": "table",
-                    "button_label": "",
-                    "sub_fields": [
-                        {
-                            "key": "field_63dbd382d4ef5",
-                            "label": "image1",
-                            "name": "image1",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "",
-                            "preview_size": "medium",
-                            "library": "",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        },
-                        {
-                            "key": "field_63dbd38cd4ef6",
-                            "label": "image2",
-                            "name": "image2",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "",
-                            "preview_size": "medium",
-                            "library": "",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        },
-                        {
-                            "key": "field_63dbd394d4ef7",
-                            "label": "image3",
-                            "name": "image3",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "",
-                            "preview_size": "medium",
-                            "library": "",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        }
-                    ]
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_63e0c23821bce",
+                    "label": "référence1_image2",
+                    "name": "reference1_image2",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_63e0c23a21bcf",
+                    "label": "référence1_image3",
+                    "name": "reference1_image3",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
                     "key": "field_63dbd3acd4ef9",
-                    "label": "banq_title2",
-                    "name": "banq_title2",
+                    "label": "référence_title2",
+                    "name": "reference_title2",
                     "type": "text",
                     "instructions": "",
                     "required": 1,
@@ -1114,10 +1093,10 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_63dbd3d0d4efb",
-                    "label": "banq_répéteur2",
-                    "name": "banq_repeteur2",
-                    "type": "repeater",
+                    "key": "field_63e0c28421bd0",
+                    "label": "référence2_image1",
+                    "name": "reference2_image1",
+                    "type": "image",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -1126,90 +1105,69 @@
                         "class": "",
                         "id": ""
                     },
-                    "collapsed": "",
-                    "min": 0,
-                    "max": 0,
-                    "layout": "table",
-                    "button_label": "",
-                    "sub_fields": [
-                        {
-                            "key": "field_63dbd3d0d4efc",
-                            "label": "image1",
-                            "name": "image1",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "",
-                            "preview_size": "medium",
-                            "library": "",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        },
-                        {
-                            "key": "field_63dbd3d0d4efd",
-                            "label": "image2",
-                            "name": "image2",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "",
-                            "preview_size": "medium",
-                            "library": "",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        },
-                        {
-                            "key": "field_63dbd3d0d4efe",
-                            "label": "image3",
-                            "name": "image3",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "",
-                            "preview_size": "medium",
-                            "library": "",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        }
-                    ]
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_63e0c29621bd2",
+                    "label": "référence2_image2",
+                    "name": "reference2_image2",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_63e0c29521bd1",
+                    "label": "référence2_image3",
+                    "name": "reference2_image3",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
                     "key": "field_63dbd3f3d4eff",
-                    "label": "banq_title3",
-                    "name": "banq_title3",
+                    "label": "référence_title3",
+                    "name": "reference_title3",
                     "type": "text",
                     "instructions": "",
                     "required": 1,
@@ -1226,10 +1184,10 @@
                     "maxlength": ""
                 },
                 {
-                    "key": "field_63dbd408d4f01",
-                    "label": "banq_répéteur3",
-                    "name": "banq_repeteur3",
-                    "type": "repeater",
+                    "key": "field_63e0c2e321bd3",
+                    "label": "référence3_image1",
+                    "name": "reference3_image1",
+                    "type": "image",
                     "instructions": "",
                     "required": 1,
                     "conditional_logic": 0,
@@ -1238,85 +1196,64 @@
                         "class": "",
                         "id": ""
                     },
-                    "collapsed": "",
-                    "min": 0,
-                    "max": 0,
-                    "layout": "table",
-                    "button_label": "",
-                    "sub_fields": [
-                        {
-                            "key": "field_63dbd408d4f02",
-                            "label": "image1",
-                            "name": "image1",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "id",
-                            "preview_size": "medium",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        },
-                        {
-                            "key": "field_63dbd408d4f03",
-                            "label": "image2",
-                            "name": "image2",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "id",
-                            "preview_size": "medium",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        },
-                        {
-                            "key": "field_63dbd408d4f04",
-                            "label": "image3",
-                            "name": "image3",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "id",
-                            "preview_size": "medium",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        }
-                    ]
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_63e0c2f921bd4",
+                    "label": "référence3_image2",
+                    "name": "reference3_image2",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_63e0c30a21bd5",
+                    "label": "référence3_image3",
+                    "name": "reference3_image3",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 }
             ]
         },
@@ -1349,7 +1286,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Besoins d'informations supplémentaires",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -1368,7 +1305,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "CONTACTEZ-NOUS",
             "placeholder": "",
             "prepend": "",
             "append": "",
@@ -1380,7 +1317,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "8"
+                "value": "99"
             }
         ]
     ],
@@ -1407,5 +1344,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1675351655
+    "modified": 1675675373
 }
