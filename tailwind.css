@@ -12,4 +12,5 @@ Version: 1.0
 
 * {
     @apply font-nunito;
+    @apply text-title-color;
 }
