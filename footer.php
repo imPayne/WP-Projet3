@@ -3,7 +3,7 @@
 
 
 
-<div class="  text-2xl h-96 bg-gradient-to-r from-pink-light to-pink-strong ">
+<div class=" text-2xl h-80 bg-gradient-to-r from-pink-light to-pink-strong ">
 
     <?php
     $image1=get_field('image_footer','options');
@@ -12,7 +12,7 @@
     }
     ?>
 
-    <p class="ml-2 text-white pt-5">
+    <p class="md:text-sm ml-2 text-white pt-5">
         <?php the_field('description', 'options') ?>
     </p>
 
