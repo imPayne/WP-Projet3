@@ -15,3 +15,11 @@ function theme_register_nav_menu(){
 add_action( 'after_setup_theme', 'theme_register_nav_menu', 0 );
 
 ?>
+
+<?php
+if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page();
+
+}
+?>
