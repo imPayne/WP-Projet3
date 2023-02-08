@@ -11,6 +11,6 @@ Version: 1.0
 @tailwind utilities;
 
 * {
-    @apply font-nunito;
-    @apply text-title-color;
+    @apply font-nunito  text-title-color;
+
 }
