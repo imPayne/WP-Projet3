@@ -5,7 +5,7 @@
 ?>
 <?php get_header(); ?>
 
-<div>
+<main>
     <div class="w-auto h-auto p-6 bg-pink-light flex flex-col items-center" id="section1">
         <h1 class="m-2 mt-14 text-5xl font-nunito tracking-tight font-bold text-white"><?php the_field('titletarifs') ?></h1>
         <div class="my-10 flex flex-row">
@@ -28,24 +28,12 @@
                         <p class="text-md"><?php echo $infos ?></p>
                         <p class="mt-10 text-5xl font-semibold"><?php echo $price ?></p>
                         <p class="mt-6 mb-10 text-5xl font-semibold"><?php echo $priceNbr ?></p>
-                        <div>
-                            <div class="flex items-center">
-                                <P class="text-pink-light font-semibold">N </P>
-                                <P class="text-left mt-4 text-lg"><?php echo $info1 ?></P>
-                            </div>
-                            <div class="flex items-center">
-                                <P class="text-pink-light font-semibold">N </P>
-                                <P class="text-left mt-4 text-lg"><?php echo $info2 ?></P>
-                            </div>
-                            <div class="flex items-center">
-                                <P class="text-pink-light font-semibold">N </P>
-                                <P class="text-left mt-4 text-lg"><?php echo $info3 ?></P>
-                            </div>
-                            <div class="flex items-center">
-                                <P class="text-pink-light font-semibold">N </P>
-                                <P class="text-left mt-4 text-lg"><?php echo $info4 ?></P>
-                            </div>
-                        </div>
+                        <ul>
+                            <li class="text-left mt-4 text-lg"><?php echo $info1 ?></li>
+                            <li class="text-left mt-4 text-lg"><?php echo $info2 ?></li>
+                            <li class="text-left mt-4 text-lg"><?php echo $info3 ?></li>
+                            <li class="text-left mt-4 text-lg"><?php echo $info4 ?></li>
+                        </ul>
                     </div>
                 </div>
                 <?php endwhile; ?>
@@ -61,6 +49,6 @@
             ?>
         </a>
     </div>
-</div>
+</main>
 
 <?php get_footer(); ?>

@@ -14,3 +14,11 @@ Version: 1.0
     @apply font-nunito  text-title-color;
 
 }
+
+main ul {
+    @apply list-check list-inside;
+}
+
+main li::marker {
+    @apply text-pink-light font-bold text-2xl;
+}

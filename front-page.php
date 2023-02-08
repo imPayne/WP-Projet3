@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-<div id="container">
-
+<main id="container">
     <div class="mb-5" id="section1">
         <div class="w-full h-96 bg-gradient-to-r from-pink-light to-pink-strong flex flex-col justify-center items-center">
             <h1 class="text-6xl text-white font-nunito tracking-tight">
@@ -41,7 +40,7 @@
     </div>
 
     <div id="section2">
-        <div class="flex flex-row items-center justify-center">
+        <div class="flex flex-row items-start justify-center">
             <div class="w-72 h-auto m-4 p-6" id="box1">
                 <?php
                 $image1 = get_field('image1');
@@ -50,13 +49,13 @@
                     echo wp_get_attachment_image( $image1, $size );
                 }
                 ?>
-                <h1 class="mt-4 text-2xl font-bold break-words"><?php
+                <h1 class="mt-4 text-2xl font-bold max-w-half"><?php
                     $titleImage1Section2 = get_field('title_image1');
                     if ($titleImage1Section2) {
                         echo $titleImage1Section2;
                     }
                     ?></h1>
-                <p class="mt-4 text-sm text-left font-semibold break-words"><?php
+                <p class="mt-4 text-sm text-left font-semibold"><?php
                     $descriptionImage1Section2 = get_field('description_image1');
                     if ($descriptionImage1Section2) {
                         echo $descriptionImage1Section2;
@@ -70,7 +69,7 @@
                     echo wp_get_attachment_image( $image2, $size );
                 }
                 ?>
-                <h1 class="mt-4 text-2xl font-bold break-words"><?php
+                <h1 class="mt-4 text-2xl font-bold max-w-half"><?php
                     $titleImage2Section2 = get_field('title_image2');
                     if ($titleImage2Section2) {
                         echo $titleImage1Section2;
@@ -92,7 +91,7 @@
                     echo wp_get_attachment_image( $image3, $size );
                 }
                 ?>
-                <h1 class="mt-4 text-2xl font-bold break-words"><?php
+                <h1 class="mt-4 text-2xl font-bold max-w-half"><?php
                     $titleImage3Section2 = get_field('title_image3');
                     if ($titleImage3Section2) {
                         echo $titleImage3Section2;
@@ -153,7 +152,7 @@
                     echo wp_get_attachment_image( $imageDispositif1, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-lg">
+                <p class="mt-4 text-md">
                     <?php
                     $textDispositif1 = get_field('text_dispositif1');
                     if ($textDispositif1) {
@@ -170,7 +169,7 @@
                     echo wp_get_attachment_image( $imageDispositif2, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-lg">
+                <p class="mt-4 text-md">
                     <?php
                     $textDispositif2 = get_field('text_dispositif2');
                     if ($textDispositif2) {
@@ -187,7 +186,7 @@
                     echo wp_get_attachment_image( $imageDispositif3, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-lg">
+                <p class="mt-4 text-md">
                     <?php
                     $textDispositif3 = get_field('text_dispositif3');
                     if ($textDispositif3) {
@@ -204,7 +203,7 @@
                     echo wp_get_attachment_image( $imageDispositif4, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-lg">
+                <p class="mt-4 text-md">
                     <?php
                     $textDispositif4 = get_field('text_dispositif4');
                     if ($textDispositif4) {
@@ -226,39 +225,39 @@
             ?>
         </h1>
         <div class="flex my-4">
-            <div>
-                <p class="m-2 mr-72">
+            <ul>
+                <li class="m-2 mr-72">
                     <?php
                     $fonctionnalite1 = get_field('fonctionnalite1');
                     if ($fonctionnalite1) {
                         echo $fonctionnalite1;
                     }
                     ?>
-                </p>
-                <p class="m-2 mr-72">
+                </li>
+                <li class="m-2 mr-72">
                     <?php
                     $fonctionnalite2 = get_field('fonctionnalite2');
                     if ($fonctionnalite2) {
                         echo $fonctionnalite2;
                     }
                     ?>
-                </p>
-                <p class="m-2 mr-72">
+                </li>
+                <li class="m-2 mr-72">
                     <?php
                     $fonctionnalite3 = get_field('fonctionnalite3');
                     if ($fonctionnalite3) {
                         echo $fonctionnalite3;
                     }
                     ?>
-                </p>
-                <p class="m-2 mb-10 mr-72">
+                </li>
+                <li class="m-2 mb-10 mr-72">
                     <?php
                     $fonctionnalite4 = get_field('fonctionnalite4');
                     if ($fonctionnalite4) {
                         echo $fonctionnalite4;
                     }
                     ?>
-                </p>
+                </li>
                 <a href="/" class="text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
                     <?php
                     if ($buttonText) {
@@ -266,7 +265,7 @@
                     }
                     ?>
                 </a>
-            </div>
+            </ul>
             <?php
             $sizeSection5 = "section5ImageSize";
             $imageFonctionnalite = get_field('fonctionnalite_image');
@@ -343,6 +342,6 @@
         </div>
     </div>
 
-</div>
+</main>
 
 <?php get_footer(); ?>
