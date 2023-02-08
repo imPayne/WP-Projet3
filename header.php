@@ -28,10 +28,13 @@ $menuID = $menuLocations['menu_principal'];
 $menu = wp_get_nav_menu_items($menuID);
 
 ?>
-<ul class="flex justify-end h-20 w-auto items-center flex-wrap p-6">
-    <?php // On boucle dans les liens et on les affiche
-    foreach ( $menu as $navItem ) {
-        echo '<li class="font-semibold list-none pr-4 block lg:inline-block lg:mt-0 mr-4"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
-    }?>
-</ul>
+<div class="h-20 grid grid-cols-2 place-items-center">
+    <img src="<?php the_field('logo', 'options'); ?>" alt="logo">
+    <ul class="w-262 h-50 flex space-x-4">
+        <?php // On boucle dans les liens et on les affiche
+        foreach ( $menu as $navItem ) {
+            echo '<li class="font-semibold list-none pr-4 block lg:inline-block lg:mt-0 mr-4"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+        }?>
+    </ul>
+</div>
 <?php wp_body_open(); ?>
