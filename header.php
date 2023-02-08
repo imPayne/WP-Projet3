@@ -12,6 +12,26 @@
  
  
 <body <?php body_class(); ?>>
- 
- 
+
+<?php
+
+
+// On récupère la liste des menus 
+$menuLocations = get_nav_menu_locations();
+
+
+// On récupère l'ID de notre menu principal
+$menuID = $menuLocations['menu_principal'];
+
+
+// On récupère les liens de ce menu
+$menu = wp_get_nav_menu_items($menuID);
+
+?>
+<ul class="flex justify-end h-20 w-auto items-center flex-wrap p-6">
+    <?php // On boucle dans les liens et on les affiche
+    foreach ( $menu as $navItem ) {
+        echo '<li class="font-semibold list-none pr-4 block lg:inline-block lg:mt-0 mr-4"><a href="'.$navItem->url.'" title="'.$navItem->title.'">'.$navItem->title.'</a></li>';
+    }?>
+</ul>
 <?php wp_body_open(); ?>
