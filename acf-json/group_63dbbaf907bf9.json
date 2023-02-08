@@ -373,25 +373,6 @@
                     "max_height": "",
                     "max_size": "",
                     "mime_types": ""
-                },
-                {
-                    "key": "field_63dbd08dd4ed1",
-                    "label": "title_secteur_image1",
-                    "name": "title_secteur_image1",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "Batiment",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
                 }
             ]
         },
@@ -963,7 +944,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "8"
+                "value": "99"
             }
         ]
     ],
@@ -981,7 +962,6 @@
         "slug",
         "author",
         "format",
-        "page_attributes",
         "featured_image",
         "categories",
         "tags",
@@ -990,5 +970,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1675702874
+    "modified": 1675850196
 }

@@ -10,8 +10,12 @@ add_image_size( 'section6ImageSize', 250, 50, array( "center", "center" ) );
 function theme_register_nav_menu(){
     register_nav_menus( array(
         'menu_principal' => __( 'Menu Principal', 'text_domain' ),
-    ) );
+    ));
 }
 add_action( 'after_setup_theme', 'theme_register_nav_menu', 0 );
+
+if( function_exists('acf_add_options_page') ) {
+    acf_add_options_page();
+}
 
 ?>

@@ -236,9 +236,9 @@
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "page_template",
                 "operator": "==",
-                "value": "page"
+                "value": "tarifs.php"
             }
         ]
     ],
@@ -265,5 +265,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1675789944
+    "modified": 1675847535
 }

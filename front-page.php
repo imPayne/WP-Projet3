@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div id="container">
 
     <div class="mb-5" id="section1">
@@ -77,8 +76,7 @@
                 $size = "section3ImageSize";
                 ?>
                 <div class="w-72">
-                <?php echo wp_get_attachment_image($image1, $size, "", ["class" => "rounded-lg","alt"=>"image"]); ?>
-                <h1 class="mt-4 text-2xl"><?php echo get_sub_field('title_secteur_image1');?></h1>
+                <?php echo wp_get_attachment_image($image1, $size); ?>
                 </div>
                 <?php } ?>
 
@@ -87,7 +85,7 @@
     </div>
 
     <div class="flex flex-col items-center justify-center" id="section4">
-        <h1 class="m-6 text-3xl font-nunito tracking-tight font-bold"><?php the_field('title_dispositifs') ?></h1>
+        <h1 class="my-10 mx-4 text-3xl font-nunito tracking-tight font-bold"><?php the_field('title_dispositifs') ?></h1>
         <div class="flex">
             <div class="w-44 h-44 my-4 mx-10" id="boxDispositifs1">
                 <?php
@@ -132,10 +130,10 @@
         </div>
     </div>
 
-    <div class="flex flex-col items-center justify-center" id="section5">
-        <h1 class="m-6 text-3xl font-nunito tracking-tight font-bold"><?php the_field('title_fonctionnalites') ?></h1>
+    <div class="mt-10 flex flex-col items-center justify-center" id="section5">
+        <h1 class="mx-6 mb-10 mt-14 text-3xl font-nunito tracking-tight font-bold"><?php the_field('title_fonctionnalites') ?></h1>
         <div class="flex my-4">
-            <div class="">
+            <div>
                 <p class="m-2 mr-72"><?php the_field('fonctionnalite1') ?></p>
                 <p class="m-2 mr-72"><?php the_field('fonctionnalite2') ?></p>
                 <p class="m-2 mr-72"><?php the_field('fonctionnalite3') ?></p>
@@ -197,7 +195,7 @@
     <div id="section7">
         <div class="flex flex-col justify-center items-center">
             <h1 class="m-2 mt-14 text-3xl font-nunito tracking-tight font-bold"><?php the_field('title_help') ?></h1>
-            <a href="/" class="m-4 mt-6 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+            <a href="/" class="mx-4 mt-10 mb-14 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
                 <?php
                 the_field('button_contactez_nous');
                 ?>
