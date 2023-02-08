@@ -6,7 +6,7 @@ module.exports = {
         colors: {
             "pink-light": "#EF6480",
             "pink-strong": "#F03B5E",
-            "contact": "#535B7C"
+            "contact": "#535B7C",
             "title-color": "#535B7C"
         },
         fontFamily: {
