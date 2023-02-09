@@ -54,7 +54,9 @@
                     if ($titleImage1Section2) {
                         echo $titleImage1Section2;
                     }
-                    ?></h1>
+                    ?>
+                </h1>
+                <div></div>
                 <p class="mt-4 text-sm text-left font-semibold"><?php
                     $descriptionImage1Section2 = get_field('description_image1');
                     if ($descriptionImage1Section2) {
@@ -62,7 +64,7 @@
                     }
                     ?></p>
             </div>
-            <div class="mb-10 w-60 h-auto m-6 p-4 mt-10 bg-white" id="box2">
+            <div class="mb-10 w-72 h-auto m-6 mt-10 p-4 bg-white" id="box2">
                 <?php
                 $image2 = get_field('image2');
                 if($image2) {
@@ -84,7 +86,7 @@
                     ?>
                 </p>
             </div>
-            <div class="mb-10 w-60 h-auto m-6 p-4 mt-10 bg-white" id="box3">
+            <div class="mb-10 w-72 h-auto m-6 mt-10 p-4 bg-white" id="box3">
                 <?php
                 $image3 = get_field('image3');
                 if($image3) {
