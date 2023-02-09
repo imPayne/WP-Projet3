@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <div id="section2">
+    <div class="bg-block-color" id="section2">
         <div class="flex flex-row items-start justify-center">
             <div class="w-72 h-auto m-4 p-6" id="box1">
                 <?php
@@ -134,7 +134,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col items-center justify-center" id="section4">
+    <div class="flex flex-col items-center justify-center bg-block-color" id="section4">
         <h1 class="my-10 mx-4 text-3xl font-nunito tracking-tight font-bold">
             <?php
             $titleDispositifsSection4 = get_field('title_dispositifs');
@@ -143,8 +143,8 @@
             }
             ?>
         </h1>
-        <div class="flex">
-            <div class="w-44 h-44 my-4 mx-10" id="boxDispositifs1">
+        <div class="flex bg-block-color">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs1">
                 <?php
                 $imageDispositif1 = get_field('image_dispositif1');
                 $sizeSection4 = 'section4ImageSize'; // (thumbnail, medium, large, full or custom size)
@@ -152,7 +152,7 @@
                     echo wp_get_attachment_image( $imageDispositif1, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-md">
+                <p class="pt-4 text-md">
                     <?php
                     $textDispositif1 = get_field('text_dispositif1');
                     if ($textDispositif1) {
@@ -162,14 +162,14 @@
                 </p>
             </div>
 
-            <div class="w-44 h-44 my-4 mx-10" id="boxDispositifs2">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs2">
                 <?php
                 $imageDispositif2 = get_field('image_dispositif2');
                 if($imageDispositif2) {
                     echo wp_get_attachment_image( $imageDispositif2, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-md">
+                <p class="pt-4 text-md">
                     <?php
                     $textDispositif2 = get_field('text_dispositif2');
                     if ($textDispositif2) {
@@ -179,14 +179,14 @@
                 </p>
             </div>
 
-            <div class="w-44 h-44 my-4 mx-10" id="boxDispositifs3">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs3">
                 <?php
                 $imageDispositif3 = get_field('image_dispositif3');
                 if($imageDispositif3) {
                     echo wp_get_attachment_image( $imageDispositif3, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-md">
+                <p class="pt-4 text-md">
                     <?php
                     $textDispositif3 = get_field('text_dispositif3');
                     if ($textDispositif3) {
@@ -196,14 +196,14 @@
                 </p>
             </div>
 
-            <div class="w-44 h-44 my-4 mx-10" id="boxDispositifs4">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs4">
                 <?php
                 $imageDispositif4 = get_field('image_dispositif4');
                 if($imageDispositif4) {
                     echo wp_get_attachment_image( $imageDispositif4, $sizeSection4);
                 }
                 ?>
-                <p class="mt-4 text-md">
+                <p class="pt-4 text-md">
                     <?php
                     $textDispositif4 = get_field('text_dispositif4');
                     if ($textDispositif4) {
@@ -215,7 +215,7 @@
         </div>
     </div>
 
-    <div class="mt-10 flex flex-col items-center justify-center" id="section5">
+    <div class="mt-2 flex flex-col items-center justify-center" id="section5">
         <h1 class="mx-6 mb-10 mt-14 text-3xl font-nunito tracking-tight font-bold">
             <?php
             $titleFonctionnalites = get_field('title_fonctionnalites');
@@ -276,7 +276,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col items-center justify-center" id="section6">
+    <div class="pb-4 flex flex-col items-center justify-center bg-block-color" id="section6">
         <h1 class="m-6 mb-10 text-3xl font-nunito tracking-tight font-bold">
             <?php
             $titleReferences = get_field('title_references');
