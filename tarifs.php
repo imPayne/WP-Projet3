@@ -6,7 +6,7 @@
 <?php get_header(); ?>
 
 <main>
-    <div class="w-auto h-auto p-6 bg-pink-light flex flex-col items-center" id="section1">
+    <div class="w-auto h-auto p-6 bg-gradient-to-r from-pink-light to-pink-strong flex flex-col items-center" id="section1">
         <h1 class="m-2 mt-14 text-5xl font-nunito tracking-tight font-bold text-white"><?php the_field('titletarifs') ?></h1>
         <div class="my-10 flex flex-row">
                 <?php
