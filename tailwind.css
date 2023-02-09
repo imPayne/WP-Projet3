@@ -14,3 +14,21 @@ Version: 1.0
     @apply font-nunito  text-title-color;
 
 }
+
+/* responsive */
+@media (max-width: 768px) {
+    .text-white {
+        @apply text-sm;
+    }
+    .flex{
+        @apply flex-col;
+
+    }
+
+}
+
+
+
+
+
+
