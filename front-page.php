@@ -27,7 +27,7 @@
                         }
                     ?>
                 </a>
-                <a href="/" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+                <a href="/contact" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
                     <?php
                         $buttonContact = get_field('buttoncontact');
                         if ($buttonContact) {
@@ -331,7 +331,7 @@
                 }
                 ?>
             </h1>
-            <a href="/" class="mx-4 mt-10 mb-14 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+            <a href="/contact" class="mx-4 mt-10 mb-14 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
                 <?php
                 $buttonContactUs = get_field('button_contactez_nous');
                 if ($buttonContactUs) {

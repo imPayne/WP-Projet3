@@ -43,7 +43,7 @@
 
     <div class="m-10 h-80 w-auto flex flex-col items-center justify-center" id="section2">
         <p class="font-semibold"><?php the_field('description') ?></p>
-        <a href="/" class="m-4 mt-10 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+        <a href="/contact" class="m-4 mt-10 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
             <?php
             the_field('buttoncontact');
             ?>
