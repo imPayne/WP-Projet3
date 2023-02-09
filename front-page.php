@@ -226,10 +226,10 @@
             }
             ?>
         </h1>
-        <div class="w-full flex px-4 flex-col md:flex-row  lg:px-0">
-            <div class="pb-8">
+        <div class="w-full flex px-4 flex-col md:flex-row md:justify-center lg:px-0">
+            <div class="mx-2 md:mx-48 pb-8">
                 <ul class="pb-8">
-                    <li class="text-center m-2 mr-4 md:m-72">
+                    <li class="text-center m-2 mr-4">
                         <?php
                         $fonctionnalite1 = get_field('fonctionnalite1');
                         if ($fonctionnalite1) {
@@ -237,7 +237,7 @@
                         }
                         ?>
                     </li>
-                    <li class="text-center m-2 mr-4 md:m-72">
+                    <li class="text-center m-2 mr-4">
                         <?php
                         $fonctionnalite2 = get_field('fonctionnalite2');
                         if ($fonctionnalite2) {
@@ -245,7 +245,7 @@
                         }
                         ?>
                     </li>
-                    <li class="text-center m-2 mr-4 md:m-72">
+                    <li class="text-center m-2 mr-4">
                         <?php
                         $fonctionnalite3 = get_field('fonctionnalite3');
                         if ($fonctionnalite3) {
@@ -253,7 +253,7 @@
                         }
                         ?>
                     </li>
-                    <li class="text-center m-2 mr-4 md:m-72 mb-10">
+                    <li class="text-center m-2 mr-4 mb-10">
                         <?php
                         $fonctionnalite4 = get_field('fonctionnalite4');
                         if ($fonctionnalite4) {
