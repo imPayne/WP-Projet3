@@ -2,7 +2,7 @@
 <main id="container">
     <div id="section1">
         <div class="w-full h-96 bg-gradient-to-r from-pink-light to-pink-strong flex flex-col justify-center items-center">
-            <h1 class="text-6xl text-white font-nunito tracking-tight">
+            <h1 class="text-6xl text-white font-nunito tracking-tight max-[700px]:text-3xl max-[430px]:text-xl">
                 <?php
                 $titleSection1 = get_field('title');
                 if ($titleSection1) {
@@ -10,7 +10,7 @@
                 }
                 ?>
             </h1>
-            <h2 class="mt-4 text-2xl text-white">
+            <h2 class="mt-4 text-2xl text-white max-[720px]:text-lg max-[530px]:text-base break-words">
                 <?php
                     $subtitleSection1 = get_field('subtitle');
                     if ($subtitleSection1) {
@@ -19,7 +19,7 @@
                 ?>
             </h2>
             <div class="flex">
-                <a href="/" class="m-4 mt-12 text-pink-light bg-white py-3 px-16 rounded-full font-bold">
+                <a href="/" class="m-4 mt-12 text-pink-light bg-white py-3 px-16 rounded-full font-bold max-[950px]:p-auto">
                     <?php
                         $buttonText = get_field('buttontext');
                         if ($buttonText) {
@@ -27,7 +27,7 @@
                         }
                     ?>
                 </a>
-                <a href="/contact" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+                <a href="/contact" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold max-[950px]:p-auto">
                     <?php
                         $buttonContact = get_field('buttoncontact');
                         if ($buttonContact) {
@@ -118,14 +118,14 @@
             }
             ?>
         </h1>
-        <div class="grid grid-cols-2 gap-0">
+        <div class="grid grid-cols-2 gap-0 max-[950px]:grid-cols-1">
             <?php while( have_rows('title_secteurs')): the_row();
             $image1 = get_sub_field('secteur_image1');
 
             if ($image1) {
                 //$size = "section3ImageSize";
                 ?>
-                <div class="w-auto">
+                <div class="w-auto h-auto max-[950px]:h-44">
                 <?php echo wp_get_attachment_image($image1, "full"); ?>
                 </div>
                 <?php } ?>
@@ -135,7 +135,7 @@
     </div>
 
     <div class="flex flex-col items-center justify-center bg-block-color" id="section4">
-        <h1 class="my-10 mx-4 text-3xl font-nunito tracking-tight font-bold">
+        <h1 class="my-10 mx-4 text-3xl font-nunito tracking-tight font-bold max-[950px]:text-xl">
             <?php
             $titleDispositifsSection4 = get_field('title_dispositifs');
             if ($titleDispositifsSection4) {
@@ -144,7 +144,7 @@
             ?>
         </h1>
         <div class="flex bg-block-color">
-            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs1">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color max-[950px]:h-auto" id="boxDispositifs1">
                 <?php
                 $imageDispositif1 = get_field('image_dispositif1');
                 $sizeSection4 = 'section4ImageSize'; // (thumbnail, medium, large, full or custom size)
@@ -152,7 +152,7 @@
                     echo wp_get_attachment_image( $imageDispositif1, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md">
+                <p class="pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif1 = get_field('text_dispositif1');
                     if ($textDispositif1) {
@@ -162,14 +162,14 @@
                 </p>
             </div>
 
-            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs2">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color max-[950px]:w-auto" id="boxDispositifs2">
                 <?php
                 $imageDispositif2 = get_field('image_dispositif2');
                 if($imageDispositif2) {
                     echo wp_get_attachment_image( $imageDispositif2, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md">
+                <p class="pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif2 = get_field('text_dispositif2');
                     if ($textDispositif2) {
@@ -179,14 +179,14 @@
                 </p>
             </div>
 
-            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs3">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color max-[950px]:w-auto" id="boxDispositifs3">
                 <?php
                 $imageDispositif3 = get_field('image_dispositif3');
                 if($imageDispositif3) {
                     echo wp_get_attachment_image( $imageDispositif3, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md">
+                <p class="pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif3 = get_field('text_dispositif3');
                     if ($textDispositif3) {
@@ -196,14 +196,14 @@
                 </p>
             </div>
 
-            <div class="w-44 h-60 my-4 mx-10 bg-block-color" id="boxDispositifs4">
+            <div class="w-44 h-60 my-4 mx-10 bg-block-color max-[950px]:w-auto" id="boxDispositifs4">
                 <?php
                 $imageDispositif4 = get_field('image_dispositif4');
                 if($imageDispositif4) {
                     echo wp_get_attachment_image( $imageDispositif4, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md">
+                <p class="pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif4 = get_field('text_dispositif4');
                     if ($textDispositif4) {
@@ -216,7 +216,7 @@
     </div>
 
     <div class="mt-2 flex flex-col items-center justify-center" id="section5">
-        <h1 class="mx-6 mb-10 mt-14 text-3xl font-nunito tracking-tight font-bold">
+        <h1 class="mx-6 mb-10 mt-14 text-3xl font-nunito tracking-tight font-bold max-[950px]:text-xl">
             <?php
             $titleFonctionnalites = get_field('title_fonctionnalites');
             if ($titleFonctionnalites) {
@@ -225,47 +225,51 @@
             ?>
         </h1>
         <div class="flex my-4">
-            <ul>
-                <li class="m-2 mr-72">
-                    <?php
-                    $fonctionnalite1 = get_field('fonctionnalite1');
-                    if ($fonctionnalite1) {
-                        echo $fonctionnalite1;
-                    }
-                    ?>
-                </li>
-                <li class="m-2 mr-72">
-                    <?php
-                    $fonctionnalite2 = get_field('fonctionnalite2');
-                    if ($fonctionnalite2) {
-                        echo $fonctionnalite2;
-                    }
-                    ?>
-                </li>
-                <li class="m-2 mr-72">
-                    <?php
-                    $fonctionnalite3 = get_field('fonctionnalite3');
-                    if ($fonctionnalite3) {
-                        echo $fonctionnalite3;
-                    }
-                    ?>
-                </li>
-                <li class="m-2 mb-10 mr-72">
-                    <?php
-                    $fonctionnalite4 = get_field('fonctionnalite4');
-                    if ($fonctionnalite4) {
-                        echo $fonctionnalite4;
-                    }
-                    ?>
-                </li>
-                <a href="/" class="text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
-                    <?php
-                    if ($buttonText) {
-                        echo $buttonText;
-                    }
-                    ?>
-                </a>
-            </ul>
+            <div>
+                <ul>
+                    <li class="m-2 mr-72">
+                        <?php
+                        $fonctionnalite1 = get_field('fonctionnalite1');
+                        if ($fonctionnalite1) {
+                            echo $fonctionnalite1;
+                        }
+                        ?>
+                    </li>
+                    <li class="m-2 mr-72 max-[950px]:m-auto">
+                        <?php
+                        $fonctionnalite2 = get_field('fonctionnalite2');
+                        if ($fonctionnalite2) {
+                            echo $fonctionnalite2;
+                        }
+                        ?>
+                    </li>
+                    <li class="m-2 mr-72 max-[950px]:m-auto">
+                        <?php
+                        $fonctionnalite3 = get_field('fonctionnalite3');
+                        if ($fonctionnalite3) {
+                            echo $fonctionnalite3;
+                        }
+                        ?>
+                    </li>
+                    <li class="m-2 mb-10 mr-72 max-[950px]:m-auto">
+                        <?php
+                        $fonctionnalite4 = get_field('fonctionnalite4');
+                        if ($fonctionnalite4) {
+                            echo $fonctionnalite4;
+                        }
+                        ?>
+                    </li>
+                </ul>
+                <div>
+                    <a href="/" class="text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+                        <?php
+                        if ($buttonText) {
+                            echo $buttonText;
+                        }
+                        ?>
+                    </a>
+                </div>
+            </div>
             <?php
             $sizeSection5 = "section5ImageSize";
             $imageFonctionnalite = get_field('fonctionnalite_image');
@@ -285,7 +289,7 @@
             }
             ?>
         </h1>
-        <div class="grid grid-cols-2 gap-2">
+        <div class="grid grid-cols-2 gap-2 max-[950px]:grid-cols-1">
             <?php
                 // Check rows existexists.
                 if( have_rows('references') ):
@@ -323,7 +327,7 @@
 
     <div id="section7">
         <div class="flex flex-col justify-center items-center bg-block-color">
-            <h1 class="m-2 mt-14 text-4xl font-nunito tracking-tight font-bold">
+            <h1 class="m-2 mt-14 text-4xl font-nunito tracking-tight font-bold  max-[950px]:text-xl">
                 <?php
                 $titleHelp = get_field('title_help');
                 if ($titleHelp) {
@@ -331,7 +335,7 @@
                 }
                 ?>
             </h1>
-            <a href="/contact" class="mx-4 mt-6 mb-14 text-white text-sm border-2 border-white bg-pink-light py-4 px-10 rounded-full font-bold">
+            <a href="/contact" class="mx-4 mt-6 mb-14 max-[950px]:p-auto text-white text-sm border-2 border-white bg-pink-light py-4 px-10 rounded-full font-bold">
                 <?php
                 $buttonContactUs = get_field('button_contactez_nous');
                 if ($buttonContactUs) {
