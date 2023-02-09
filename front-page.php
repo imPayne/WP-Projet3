@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main id="container">
-    <div class="mb-5" id="section1">
+    <div id="section1">
         <div class="w-full h-96 bg-gradient-to-r from-pink-light to-pink-strong flex flex-col justify-center items-center">
             <h1 class="text-6xl text-white font-nunito tracking-tight">
                 <?php
@@ -41,7 +41,7 @@
 
     <div class="bg-block-color" id="section2">
         <div class="flex flex-row items-start justify-center">
-            <div class="w-72 h-auto m-4 p-6" id="box1">
+            <div class="mb-10 w-72 h-auto m-6 mt-10 p-4 bg-white" id="box1">
                 <?php
                 $image1 = get_field('image1');
                 $size = 'section2ImageSize'; // (thumbnail, medium, large, full or custom size)
@@ -62,7 +62,7 @@
                     }
                     ?></p>
             </div>
-            <div class="w-72 h-auto m-4 p-6" id="box2">
+            <div class="mb-10 w-60 h-auto m-6 p-4 mt-10 bg-white" id="box2">
                 <?php
                 $image2 = get_field('image2');
                 if($image2) {
@@ -84,7 +84,7 @@
                     ?>
                 </p>
             </div>
-            <div class="w-72 h-auto m-4 p-6" id="box3">
+            <div class="mb-10 w-60 h-auto m-6 p-4 mt-10 bg-white" id="box3">
                 <?php
                 $image3 = get_field('image3');
                 if($image3) {
@@ -109,8 +109,8 @@
         </div>
     </div>
 
-    <div class="flex flex-col items-center justify-center" id="section3">
-        <h1 class="mb-6 mt-10 text-3xl font-nunito tracking-tight font-bold">
+    <div class="mt-2 flex flex-col items-center justify-center" id="section3">
+        <h1 class="my-10 text-3xl font-nunito tracking-tight font-bold">
             <?php
             $titleSecteursSection3 = get_field('title_of_secteurs');
             if ($titleSecteursSection3) {
@@ -118,15 +118,15 @@
             }
             ?>
         </h1>
-        <div class="grid grid-cols-2 gap-2">
+        <div class="grid grid-cols-2 gap-0">
             <?php while( have_rows('title_secteurs')): the_row();
             $image1 = get_sub_field('secteur_image1');
 
             if ($image1) {
-                $size = "section3ImageSize";
+                //$size = "section3ImageSize";
                 ?>
-                <div class="w-72">
-                <?php echo wp_get_attachment_image($image1, $size); ?>
+                <div class="w-auto">
+                <?php echo wp_get_attachment_image($image1, "full"); ?>
                 </div>
                 <?php } ?>
 
@@ -276,7 +276,7 @@
         </div>
     </div>
 
-    <div class="pb-4 flex flex-col items-center justify-center bg-block-color" id="section6">
+    <div class="pb-4 flex flex-col items-center justify-center" id="section6">
         <h1 class="m-6 mb-10 text-3xl font-nunito tracking-tight font-bold">
             <?php
             $titleReferences = get_field('title_references');
@@ -322,8 +322,8 @@
     </div>
 
     <div id="section7">
-        <div class="flex flex-col justify-center items-center">
-            <h1 class="m-2 mt-14 text-3xl font-nunito tracking-tight font-bold">
+        <div class="flex flex-col justify-center items-center bg-block-color">
+            <h1 class="m-2 mt-14 text-4xl font-nunito tracking-tight font-bold">
                 <?php
                 $titleHelp = get_field('title_help');
                 if ($titleHelp) {
@@ -331,7 +331,7 @@
                 }
                 ?>
             </h1>
-            <a href="/contact" class="mx-4 mt-10 mb-14 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+            <a href="/contact" class="mx-4 mt-6 mb-14 text-white text-sm border-2 border-white bg-pink-light py-4 px-10 rounded-full font-bold">
                 <?php
                 $buttonContactUs = get_field('button_contactez_nous');
                 if ($buttonContactUs) {
