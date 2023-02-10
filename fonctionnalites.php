@@ -37,7 +37,7 @@
 
                     ?>
                     <div>
-                        <li class="flex flex-col  ">
+                        <li class="flex flex-col mr-4 mb-20 ">
                             <p class="text-3xl"><?php the_sub_field('titre2'); ?></p>
                             <p><?php the_sub_field('editeur'); ?></p>
 
