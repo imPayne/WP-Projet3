@@ -15,16 +15,17 @@ Version: 1.0
 
 }
 
+
 /* responsive */
 @media (max-width: 768px) {
     .text-white {
         @apply text-sm;
     }
     .flex{
-        @apply flex-col;
+
+        @apply flex-col mt-2
 
     }
-
 }
 
 
@@ -32,3 +33,11 @@ Version: 1.0
 
 
 
+
+main ul {
+    @apply list-check list-inside;
+}
+
+main li::marker {
+    @apply text-pink-light font-bold text-2xl;
+}

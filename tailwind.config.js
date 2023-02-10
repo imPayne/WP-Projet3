@@ -11,6 +11,12 @@ module.exports = {
         },
         fontFamily: {
             "nunito": ['"Nunito Sans"']
+        },
+        maxWidth: {
+            "half": "130px"
+        },
+        listStyleType: {
+            "check": "'✓'"
         }
 
     },
