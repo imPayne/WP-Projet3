@@ -22,11 +22,11 @@
 
 
 
-        <p class="text-white ml-20">
+        <p class="text-white ml-20 text-base">
             <?php the_field('adresse', 'options') ?>
         </p>
 
-        <p class="text-white ml-20">
+        <p class="text-white ml-20 text-base">
             <?php the_field('adresse2', 'options') ?>
         </p>
 

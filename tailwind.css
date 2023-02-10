@@ -15,6 +15,25 @@ Version: 1.0
 
 }
 
+
+/* responsive */
+@media (max-width: 768px) {
+    .text-white {
+        @apply text-sm;
+    }
+    .flex{
+
+        @apply flex-col mt-2
+
+    }
+}
+
+
+
+
+
+
+
 main ul {
     @apply list-check list-inside;
 }
