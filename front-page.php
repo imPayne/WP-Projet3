@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <main id="container">
-    <div id="section1">
+    <section id="section1">
         <div class="w-full h-96 bg-gradient-to-r from-pink-light to-pink-strong flex flex-col justify-center items-center">
-            <h1 class="text-6xl text-white font-nunito tracking-tight max-[700px]:text-3xl max-[430px]:text-xl">
+            <h1 class="text-center text-6xl text-white font-nunito tracking-tight max-[700px]:text-3xl max-[430px]:text-xl">
                 <?php
                 $titleSection1 = get_field('title');
                 if ($titleSection1) {
@@ -10,7 +10,7 @@
                 }
                 ?>
             </h1>
-            <h2 class="mt-4 text-2xl text-white max-[720px]:text-lg max-[530px]:text-base break-words">
+            <h2 class="text-center mt-4 text-2xl text-white max-[720px]:text-lg max-[530px]:text-base break-words">
                 <?php
                     $subtitleSection1 = get_field('subtitle');
                     if ($subtitleSection1) {
@@ -18,7 +18,7 @@
                     }
                 ?>
             </h2>
-            <div class="flex">
+            <div class="flex flex-col md:flex-row">
                 <a href="/" class="m-4 mt-12 text-pink-light bg-white py-3 px-16 rounded-full font-bold max-[950px]:p-auto">
                     <?php
                         $buttonText = get_field('buttontext');
@@ -27,7 +27,7 @@
                         }
                     ?>
                 </a>
-                <a href="/contact" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold max-[950px]:p-auto">
+                <a href="/contact" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold md:p-auto text-center">
                     <?php
                         $buttonContact = get_field('buttoncontact');
                         if ($buttonContact) {
@@ -37,10 +37,10 @@
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="bg-block-color" id="section2">
-        <div class="flex flex-row items-start justify-center">
+    <section class="bg-block-color" id="section2">
+        <div class="flex flex-col items-center justify-center md:flex-row">
             <div class="mb-10 w-72 h-auto m-6 mt-10 p-4 bg-white" id="box1">
                 <?php
                 $image1 = get_field('image1');
@@ -109,9 +109,9 @@
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="mt-2 flex flex-col items-center justify-center" id="section3">
+    <section class="mt-2 flex flex-col items-center justify-center" id="section3">
         <h1 class="my-10 text-3xl font-nunito tracking-tight font-bold">
             <?php
             $titleSecteursSection3 = get_field('title_of_secteurs');
@@ -134,9 +134,9 @@
 
             <?php endwhile; ?>
         </div>
-    </div>
+    </section>
 
-    <div class="flex flex-col items-center justify-center bg-block-color" id="section4">
+    <section class="flex flex-col items-center justify-center bg-block-color" id="section4">
         <h1 class="my-10 mx-4 text-3xl font-nunito tracking-tight font-bold max-[950px]:text-xl">
             <?php
             $titleDispositifsSection4 = get_field('title_dispositifs');
@@ -145,7 +145,7 @@
             }
             ?>
         </h1>
-        <div class="flex bg-block-color">
+        <div class="flex flex-col bg-block-color md:flex-row">
             <div class="w-44 h-60 my-4 mx-10 bg-block-color max-[950px]:h-auto" id="boxDispositifs1">
                 <?php
                 $imageDispositif1 = get_field('image_dispositif1');
@@ -154,7 +154,7 @@
                     echo wp_get_attachment_image( $imageDispositif1, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md max-[950px]:text-sm">
+                <p class="text-center pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif1 = get_field('text_dispositif1');
                     if ($textDispositif1) {
@@ -171,7 +171,7 @@
                     echo wp_get_attachment_image( $imageDispositif2, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md max-[950px]:text-sm">
+                <p class="text-center pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif2 = get_field('text_dispositif2');
                     if ($textDispositif2) {
@@ -188,7 +188,7 @@
                     echo wp_get_attachment_image( $imageDispositif3, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md max-[950px]:text-sm">
+                <p class="text-center pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif3 = get_field('text_dispositif3');
                     if ($textDispositif3) {
@@ -205,7 +205,7 @@
                     echo wp_get_attachment_image( $imageDispositif4, $sizeSection4);
                 }
                 ?>
-                <p class="pt-4 text-md max-[950px]:text-sm">
+                <p class="text-center pt-4 text-md max-[950px]:text-sm">
                     <?php
                     $textDispositif4 = get_field('text_dispositif4');
                     if ($textDispositif4) {
@@ -215,9 +215,9 @@
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="mt-2 flex flex-col items-center justify-center" id="section5">
+    <section class="mt-2 flex flex-col items-center justify-center" id="section5">
         <h1 class="mx-6 mb-10 mt-14 text-3xl font-nunito tracking-tight font-bold max-[950px]:text-xl">
             <?php
             $titleFonctionnalites = get_field('title_fonctionnalites');
@@ -226,10 +226,10 @@
             }
             ?>
         </h1>
-        <div class="flex my-4">
-            <div>
-                <ul>
-                    <li class="m-2 mr-72">
+        <div class="w-full flex px-4 flex-col md:flex-row md:justify-center lg:px-0">
+            <div class="mx-2 md:mx-48 pb-8">
+                <ul class="pb-8">
+                    <li class="text-center m-2 mr-4">
                         <?php
                         $fonctionnalite1 = get_field('fonctionnalite1');
                         if ($fonctionnalite1) {
@@ -237,7 +237,7 @@
                         }
                         ?>
                     </li>
-                    <li class="m-2 mr-72 max-[950px]:m-auto">
+                    <li class="text-center m-2 mr-4">
                         <?php
                         $fonctionnalite2 = get_field('fonctionnalite2');
                         if ($fonctionnalite2) {
@@ -245,7 +245,7 @@
                         }
                         ?>
                     </li>
-                    <li class="m-2 mr-72 max-[950px]:m-auto">
+                    <li class="text-center m-2 mr-4">
                         <?php
                         $fonctionnalite3 = get_field('fonctionnalite3');
                         if ($fonctionnalite3) {
@@ -253,7 +253,7 @@
                         }
                         ?>
                     </li>
-                    <li class="m-2 mb-10 mr-72 max-[950px]:m-auto">
+                    <li class="text-center m-2 mr-4 mb-10">
                         <?php
                         $fonctionnalite4 = get_field('fonctionnalite4');
                         if ($fonctionnalite4) {
@@ -262,8 +262,8 @@
                         ?>
                     </li>
                 </ul>
-                <div>
-                    <a href="/" class="text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+                <div class="text-center">
+                    <a href="/" class="text-center text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
                         <?php
                         if ($buttonText) {
                             echo $buttonText;
@@ -280,9 +280,9 @@
             }
             ?>
         </div>
-    </div>
+    </section>
 
-    <div class="pb-4 flex flex-col items-center justify-center" id="section6">
+    <section class="pb-4 flex flex-col items-center justify-center" id="section6">
         <h1 class="m-6 mb-10 text-3xl font-nunito tracking-tight font-bold">
             <?php
             $titleReferences = get_field('title_references');
@@ -325,9 +325,9 @@
                 endif;
                 ?>
         </div>
-    </div>
+    </section>
 
-    <div id="section7">
+    <section id="section7">
         <div class="flex flex-col justify-center items-center bg-block-color">
             <h1 class="m-2 mt-14 text-4xl font-nunito tracking-tight font-bold  max-[950px]:text-xl">
                 <?php
@@ -346,7 +346,7 @@
                 ?>
             </a>
         </div>
-    </div>
+    </section>
 
 </main>
 
