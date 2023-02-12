@@ -19,7 +19,7 @@
                 ?>
             </h2>
             <div class="flex flex-col md:flex-row">
-                <a href="/" class="m-4 mt-12 text-pink-light bg-white py-3 px-16 rounded-full font-bold max-[950px]:p-auto">
+                <a href="http://wpprojet3.local/fonctionnalites/" class="m-4 mt-12 text-pink-light bg-white py-3 px-16 rounded-full font-bold max-[950px]:p-auto">
                     <?php
                         $buttonText = get_field('buttontext');
                         if ($buttonText) {
@@ -27,7 +27,7 @@
                         }
                     ?>
                 </a>
-                <a href="/contact" class="m-4 mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold md:p-auto text-center">
+                <a href="/contact" class="m-4 mt-2 md:mt-12 text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold md:p-auto text-center">
                     <?php
                         $buttonContact = get_field('buttoncontact');
                         if ($buttonContact) {
@@ -40,23 +40,23 @@
     </section>
 
     <section class="bg-block-color" id="section2">
-        <div class="flex flex-col items-center justify-center md:flex-row">
+        <div class="flex flex-col items-start justify-center md:flex-row">
             <div class="mb-10 w-72 h-auto m-6 mt-10 p-4 bg-white" id="box1">
                 <?php
                 $image1 = get_field('image1');
                 $size = 'section2ImageSize'; // (thumbnail, medium, large, full or custom size)
                 if($image1) {
-                    echo wp_get_attachment_image( $image1, $size );
+                    echo wp_get_attachment_image( $image1, $size, "", ['class' => "w-full rounded-md shadow-black"]);
                 }
                 ?>
-                <h1 class="mt-4 text-2xl font-bold max-w-half"><?php
+                <h1 class="text-left mt-4 text-2xl font-bold max-w-half"><?php
                     $titleImage1Section2 = get_field('title_image1');
                     if ($titleImage1Section2) {
                         echo $titleImage1Section2;
                     }
                     ?>
                 </h1>
-                <div></div>
+                <hr class="mt-4 bg-sky-500 h-0.5 rounded-lg">
                 <p class="mt-4 text-sm text-left font-semibold"><?php
                     $descriptionImage1Section2 = get_field('description_image1');
                     if ($descriptionImage1Section2) {
@@ -68,7 +68,7 @@
                 <?php
                 $image2 = get_field('image2');
                 if($image2) {
-                    echo wp_get_attachment_image( $image2, $size );
+                    echo wp_get_attachment_image( $image2, $size, "", ['class' => "w-full rounded-md shadow-black"]);
                 }
                 ?>
                 <h1 class="mt-4 text-2xl font-bold max-w-half"><?php
@@ -78,6 +78,7 @@
                     }
                     ?>
                 </h1>
+                <hr class="mt-8 bg-line-gray h-0.5 rounded-lg">
                 <p class="mt-4 text-sm text-left font-semibold break-words"><?php
                     $descriptionImage2Section2 = get_field('description_image2');
                     if ($descriptionImage2Section2) {
@@ -90,7 +91,7 @@
                 <?php
                 $image3 = get_field('image3');
                 if($image3) {
-                    echo wp_get_attachment_image( $image3, $size );
+                    echo wp_get_attachment_image( $image3, $size, "", ['class' => "w-full rounded-md shadow-black"]);
                 }
                 ?>
                 <h1 class="mt-4 text-2xl font-bold max-w-half"><?php
@@ -100,6 +101,7 @@
                     }
                     ?>
                 </h1>
+                <hr class="mt-4 bg-sky-500 h-0.5 rounded-lg">
                 <p class="mt-4 text-sm text-left font-semibold break-words"><?php
                     $descriptionImage3Section2 = get_field('description_image3');
                     if ($descriptionImage3Section2) {
@@ -125,10 +127,10 @@
             $image1 = get_sub_field('secteur_image1');
 
             if ($image1) {
-                //$size = "section3ImageSize";
+                $size = "section3ImageSize";
                 ?>
                 <div class="w-auto h-auto max-[950px]:h-44">
-                <?php echo wp_get_attachment_image($image1, "full"); ?>
+                <?php echo wp_get_attachment_image($image1, $size); ?>
                 </div>
                 <?php } ?>
 
@@ -227,9 +229,9 @@
             ?>
         </h1>
         <div class="w-full flex px-4 flex-col md:flex-row md:justify-center lg:px-0">
-            <div class="mx-2 md:mx-48 pb-8">
-                <ul class="pb-8">
-                    <li class="text-center m-2 mr-4">
+            <div class="mx-10 md:px-60 pb-8">
+                <ul class="pb-8 pr-0 md:pr-24">
+                    <li class="text-left m-2 mr-4 font-bold">
                         <?php
                         $fonctionnalite1 = get_field('fonctionnalite1');
                         if ($fonctionnalite1) {
@@ -237,7 +239,7 @@
                         }
                         ?>
                     </li>
-                    <li class="text-center m-2 mr-4">
+                    <li class="text-left m-2 mr-4 font-bold">
                         <?php
                         $fonctionnalite2 = get_field('fonctionnalite2');
                         if ($fonctionnalite2) {
@@ -245,7 +247,7 @@
                         }
                         ?>
                     </li>
-                    <li class="text-center m-2 mr-4">
+                    <li class="text-left m-2 mr-4 font-bold">
                         <?php
                         $fonctionnalite3 = get_field('fonctionnalite3');
                         if ($fonctionnalite3) {
@@ -253,7 +255,7 @@
                         }
                         ?>
                     </li>
-                    <li class="text-center m-2 mr-4 mb-10">
+                    <li class="text-left m-2 mr-4 font-bold">
                         <?php
                         $fonctionnalite4 = get_field('fonctionnalite4');
                         if ($fonctionnalite4) {
@@ -262,8 +264,8 @@
                         ?>
                     </li>
                 </ul>
-                <div class="text-center">
-                    <a href="/" class="text-center text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
+                <div class="text-center pr-32">
+                    <a href="http://wpprojet3.local/fonctionnalites/" class="text-center text-white border-2 border-white bg-pink-light py-3 px-10 rounded-full font-bold">
                         <?php
                         if ($buttonText) {
                             echo $buttonText;
@@ -272,13 +274,15 @@
                     </a>
                 </div>
             </div>
-            <?php
-            $sizeSection5 = "section5ImageSize";
-            $imageFonctionnalite = get_field('fonctionnalite_image');
-            if($imageFonctionnalite) {
-                echo wp_get_attachment_image( $imageFonctionnalite, $sizeSection5);
-            }
-            ?>
+            <div class="mr-96">
+                <?php
+                $sizeSection5 = "section5ImageSize";
+                $imageFonctionnalite = get_field('fonctionnalite_image');
+                if($imageFonctionnalite) {
+                    echo wp_get_attachment_image( $imageFonctionnalite, $sizeSection5);
+                }
+                ?>
+            </div>
         </div>
     </section>
 
@@ -310,7 +314,7 @@
                             <h2 class="m-4 mx-14 text-xl text-right font-semibold"><?php echo $reference_title; ?></h2>
                         </div>
                         <div>
-                            <div class="flex">
+                            <div class="flex md:flex-row items-center justify-center flex-col">
                                 <?php
                                 echo wp_get_attachment_image( $reference_image1, $sizeSection6, "", ["class" => "mx-2","alt"=>"image"]);
                                 echo wp_get_attachment_image( $reference_image2, $sizeSection6, "", ["class" => "mx-2","alt"=>"image"]);
@@ -337,7 +341,7 @@
                 }
                 ?>
             </h1>
-            <a href="/contact" class="mx-4 mt-6 mb-14 max-[950px]:p-auto text-white text-sm border-2 border-white bg-pink-light py-4 px-10 rounded-full font-bold">
+            <a href="/contact" class="mx-4 mt-6 mb-20 max-[950px]:p-4 text-white text-sm border-2 border-white bg-pink-light py-4 px-10 rounded-full font-bold">
                 <?php
                 $buttonContactUs = get_field('button_contactez_nous');
                 if ($buttonContactUs) {

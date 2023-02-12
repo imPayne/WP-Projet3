@@ -19,7 +19,7 @@
     <?php while( have_rows('repeteur') ) : the_row();
 
     // Load sub field value.
-        $image1=get_field('image1');
+        $image1=get_sub_field('image1');
         $size = 'section2ImageSize'; // (thumbnail, medium, large, full or custom size)
 
     ?>

@@ -8,7 +8,8 @@ module.exports = {
             "pink-strong": "#F03B5E",
             "block-color" : "#F7FBFE",
             "contact": "#535B7C",
-            "title-color": "#535B7C"
+            "title-color": "#535B7C",
+            "line-gray": "#646F93"
         },
         fontFamily: {
             "nunito": ['"Nunito Sans"']
