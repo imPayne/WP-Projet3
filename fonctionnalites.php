@@ -24,18 +24,17 @@
 
     ?>
             <div>
-                <div class="flex items-center justify-center space-x-20 space-y-32  <?php if ($i % 2 === 0){echo $classe;} ?>">
+                <div class="flex items-center justify-center space-x-72 space-y-32  <?php if ($i % 2 === 0){echo $classe;} ?>">
                     <div class="">
                         <?php if ($image1) {
                             echo wp_get_attachment_image($image1, $size);
                             }
                         ?>
                     </div>
-                    <?php $sub_value2 = get_sub_field('titre2');
-                    $sub_value3 = get_sub_field('editeur');
-                    // Do something...
+                    <p class="text1"><?php $sub_value2 = get_sub_field('titre2');?></p>
+                    <p class="text1"><?php $sub_value3 = get_sub_field('editeur');?></p>
 
-                    ?>
+
                     <div>
                         <li class="flex flex-col mr-4 mb-20 ">
                             <p class="text-3xl"><?php the_sub_field('titre2'); ?></p>

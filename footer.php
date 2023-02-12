@@ -3,12 +3,13 @@
 
 
 
-<div class=" text-2xl h-80 bg-gradient-to-r from-pink-light to-pink-strong ">
+<div class=" text-2xl h-auto bg-gradient-to-r from-pink-light to-pink-strong ">
 
-    <?php
-    $image1=get_field('image_footer','options');
-    if($image1) {
-        echo wp_get_attachment_image( $image1, 'full');
+
+        <?php
+        $image1=get_field('image_footer','options');
+        if($image1) {
+            echo wp_get_attachment_image( $image1);
     }
     ?>
 
