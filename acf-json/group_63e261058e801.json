@@ -7,7 +7,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "161"
+                "value": "156"
             }
         ]
     ],
@@ -16,9 +16,23 @@
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
-    "hide_on_screen": "",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1676019372
+    "modified": 1676219496
 }
