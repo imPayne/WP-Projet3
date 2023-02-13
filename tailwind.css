@@ -21,13 +21,16 @@ Version: 1.0
     .text-white {
         @apply text-sm;
     }
+    .text1 {
+        /* @apply text-2xl; */
+        @apply text-2xl;
+    }
     .flex{
 
         @apply flex-col mt-2
 
     }
 }
-
 
 
 
